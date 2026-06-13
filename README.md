@@ -414,6 +414,7 @@ Video Composer → Final Video + Audio + Subtitles
 - **Manim**：感谢3Blue1Brown开发的优秀数学动画引擎
 - **edge-tts**：感谢微软提供的免费TTS服务
 - **Trae**：感谢Trae平台提供的skill框架
+- **Coze（扣子）**：感谢Coze扣子平台提供的技能开发支持
 
 ## 联系方式
 
