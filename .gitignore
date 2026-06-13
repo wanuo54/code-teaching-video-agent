@@ -26,6 +26,11 @@ output/
 *.wav
 *.ogg
 
+# Allow sample files in examples/output
+!examples/output/*.mp4
+!examples/output/*.png
+!examples/output/*.jpg
+
 # Temporary files
 *.tmp
 *.bak
