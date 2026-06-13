@@ -238,7 +238,9 @@ code-teaching-video-agent/
 ├── examples/                   # 示例目录
 │   ├── input/                  # 输入示例
 │   │   └── bubble_sort.py
-│   ├── output/                 # 输出示例
+│   ├── output/                 # 输出示例（Coze平台生成的样例）
+│   │   ├── AOE网关键路径_逆拓扑求vl_教学视频.mp4  # AOE网关键路径教学视频样例
+│   │   └── mmexport1781288327497.jpg            # 视频截图样例
 │   ├── scripts/                # 教学脚本示例
 │   │   └ prim_script.json
 │   └ scenes/                   # Manim场景示例
