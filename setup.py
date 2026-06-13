@@ -3,10 +3,10 @@ from setuptools import setup, find_packages
 setup(
     name="code-teaching-video-agent",
     version="1.0.0",
-    description="AI-powered code teaching video generator",
+    description="AI驱动的代码教学视频生成器 —— 适用于Trae平台和coze扣子的技能，作用是把代码转换成教学讲解视频",
     author="Code Teaching Video Agent Contributors",
     author_email="contact@example.com",
-    url="https://github.com/[username]/code-teaching-video-agent",
+    url="https://github.com/wanuo54/code-teaching-video-agent",
     python_requires=">=3.8",
     packages=find_packages(),
     install_requires=[

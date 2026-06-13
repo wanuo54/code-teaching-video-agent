@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "code-teaching-video-agent"
 version = "1.0.0"
-description = "AI-powered code teaching video generator"
+description = "AI驱动的代码教学视频生成器 —— 适用于Trae平台和coze扣子的技能，作用是把代码转换成教学讲解视频"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
@@ -51,10 +51,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/[username]/code-teaching-video-agent"
-Documentation = "https://github.com/[username]/code-teaching-video-agent#readme"
-Repository = "https://github.com/[username]/code-teaching-video-agent.git"
-Issues = "https://github.com/[username]/code-teaching-video-agent/issues"
+Homepage = "https://github.com/wanuo54/code-teaching-video-agent"
+Documentation = "https://github.com/wanuo54/code-teaching-video-agent#readme"
+Repository = "https://github.com/wanuo54/code-teaching-video-agent.git"
+Issues = "https://github.com/wanuo54/code-teaching-video-agent/issues"
 
 [tool.black]
 line-length = 88
