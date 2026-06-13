@@ -247,10 +247,11 @@ code-teaching-video-agent/
 ├── assets/                     # 资源文件目录
 ├── output/                     # 输出目录
 │
-└── docs/                       # 文档目录
+└── docs/                       # 文档目录（适用于Coze扣子平台）
     ├── ARCHITECTURE.md         # 架构文档
     ├── USAGE.md                # 使用指南
-    └── CONTRIBUTING.md         # 贡献指南
+    ├── CONTRIBUTING.md         # 贡献指南
+    └── CodeVizTeach-Original.md  # 原始Skill定义文档（适用于Coze平台导入）
 ```
 
 ## 示例
@@ -416,8 +417,8 @@ Video Composer → Final Video + Audio + Subtitles
 
 ## 联系方式
 
-- 项目主页：https://github.com/[username]/code-teaching-video-agent
-- 问题反馈：https://github.com/[username]/code-teaching-video-agent/issues
+- 项目主页：https://github.com/wanuo54/code-teaching-video-agent
+- 问题反馈：https://github.com/wanuo54/code-teaching-video-agent/issues
 
 ---
 
