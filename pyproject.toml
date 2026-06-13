@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "code-teaching-video-agent"
+version = "1.0.0"
+description = "AI-powered code teaching video generator"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Code Teaching Video Agent Contributors"}
+]
+keywords = ["code", "teaching", "video", "algorithm", "visualization", "manim", "tts"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Education",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "edge-tts>=6.1.0",
+    "manim>=0.18.0",
+    "ffmpeg-python>=0.2.0",
+    "tree-sitter>=0.20.0",
+    "pygments>=2.15.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "moviepy>=1.0.3",
+    "imageio>=2.31.0",
+    "tqdm>=4.65.0",
+    "click>=8.1.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/[username]/code-teaching-video-agent"
+Documentation = "https://github.com/[username]/code-teaching-video-agent#readme"
+Repository = "https://github.com/[username]/code-teaching-video-agent.git"
+Issues = "https://github.com/[username]/code-teaching-video-agent/issues"
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true

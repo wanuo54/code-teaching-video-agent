@@ -1,0 +1,21 @@
+# 核心依赖
+edge-tts>=6.1.0
+manim>=0.18.0
+ffmpeg-python>=0.2.0
+
+# 代码分析
+tree-sitter>=0.20.0
+pygments>=2.15.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 视频处理
+moviepy>=1.0.3
+imageio>=2.31.0
+
+# 其他工具
+tqdm>=4.65.0
+click>=8.1.0
+pyyaml>=6.0
